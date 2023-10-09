@@ -2,10 +2,9 @@
 import { createRequire } from "node:module"
 import crypto from "node:crypto"
 import { validateSchema, validatePartialSchema } from "../schemas/movies.schema.js"
+
 const require = createRequire(import.meta.url)
 const movies = require("../movies.json")
-
-
 
 export const getMovies = (req, res) => {
     const { title, genre } = req.query
