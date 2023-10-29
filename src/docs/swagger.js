@@ -16,7 +16,7 @@ const options = {
         },
         servers: [
             {
-                url: 'http://localhost:3000',
+                url: 'https://movies-backend.3.us-1.fl0.io/',
             },
         ],
     },
