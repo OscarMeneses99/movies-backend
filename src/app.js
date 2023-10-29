@@ -1,7 +1,6 @@
 
 import express from 'express'
 import cors from 'cors'
-import morgan from 'morgan'
 import swaggerUi from 'swagger-ui-express'
 import swaggerSpec from './docs/swagger.js'
 import movies from './routes/movies.routes.js'
@@ -13,7 +12,6 @@ app.disable('x-powered-by')
 
 // Middlewares
 app.use(cors())
-app.use(morgan('dev'))
 app.use(express.json())
 
 // Routes
