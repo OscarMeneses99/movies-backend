@@ -1,7 +1,8 @@
 import app from './app.js'
 
-const port = process.env.PORT ?? 1234
+const PORT = process.env.PORT ?? 3000
 
-app.listen(port)
+app.listen(PORT)
 
-console.log(`Server on >>> http://localhost:${port}`)
+console.log(`Docs on >>> http://localhost:${PORT}/api-docs`)
+console.log(`Server on >>> http://localhost:${PORT}`)

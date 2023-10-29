@@ -1,11 +1,14 @@
-[{
+[
+  {
     "id": "dcdd0fad-a94c-4810-8acc-5f108d3b18c3",
     "title": "The Shawshank Redemption",
     "year": 1994,
     "director": "Frank Darabont",
     "duration": 142,
     "poster": "https://i.ebayimg.com/images/g/4goAAOSwMyBe7hnQ/s-l1200.webp",
-    "genre": ["Drama"],
+    "genre": [
+      "Drama"
+    ],
     "rate": 9.3
   },
   {
@@ -15,7 +18,11 @@
     "director": "Christopher Nolan",
     "duration": 152,
     "poster": "https://i.ebayimg.com/images/g/yokAAOSw8w1YARbm/s-l1200.jpg",
-    "genre": ["Action", "Crime", "Drama"],
+    "genre": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
     "rate": 9.0
   },
   {
@@ -25,7 +32,11 @@
     "director": "Christopher Nolan",
     "duration": 148,
     "poster": "https://m.media-amazon.com/images/I/91Rc8cAmnAL._AC_UF1000,1000_QL80_.jpg",
-    "genre": ["Action", "Adventure", "Sci-Fi"],
+    "genre": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
     "rate": 8.8
   },
   {
@@ -35,7 +46,10 @@
     "director": "Quentin Tarantino",
     "duration": 154,
     "poster": "https://www.themoviedb.org/t/p/original/vQWk5YBFWF4bZaofAbv0tShwBvQ.jpg",
-    "genre": ["Crime", "Drama"],
+    "genre": [
+      "Crime",
+      "Drama"
+    ],
     "rate": 8.9
   },
   {
@@ -45,7 +59,10 @@
     "director": "Robert Zemeckis",
     "duration": 142,
     "poster": "https://i.ebayimg.com/images/g/qR8AAOSwkvRZzuMD/s-l1600.jpg",
-    "genre": ["Drama", "Romance"],
+    "genre": [
+      "Drama",
+      "Romance"
+    ],
     "rate": 8.8
   },
   {
@@ -55,7 +72,11 @@
     "director": "Ridley Scott",
     "duration": 155,
     "poster": "https://img.fruugo.com/product/0/60/14417600_max.jpg",
-    "genre": ["Action", "Adventure", "Drama"],
+    "genre": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
     "rate": 8.5
   },
   {
@@ -65,7 +86,10 @@
     "director": "Lana Wachowski",
     "duration": 136,
     "poster": "https://i.ebayimg.com/images/g/QFQAAOSwAQpfjaA6/s-l1200.jpg",
-    "genre": ["Action", "Sci-Fi"],
+    "genre": [
+      "Action",
+      "Sci-Fi"
+    ],
     "rate": 8.7
   },
   {
@@ -75,7 +99,11 @@
     "director": "Christopher Nolan",
     "duration": 169,
     "poster": "https://m.media-amazon.com/images/I/91obuWzA3XL._AC_UF1000,1000_QL80_.jpg",
-    "genre": ["Adventure", "Drama", "Sci-Fi"],
+    "genre": [
+      "Adventure",
+      "Drama",
+      "Sci-Fi"
+    ],
     "rate": 8.6
   },
   {
@@ -85,7 +113,11 @@
     "director": "Peter Jackson",
     "duration": 201,
     "poster": "https://i.ebayimg.com/images/g/0hoAAOSwe7peaMLW/s-l1600.jpg",
-    "genre": ["Action", "Adventure", "Drama"],
+    "genre": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
     "rate": 8.9
   },
   {
@@ -95,7 +127,11 @@
     "director": "Roger Allers, Rob Minkoff",
     "duration": 88,
     "poster": "https://m.media-amazon.com/images/I/81BMmrwSFOL._AC_UF1000,1000_QL80_.jpg",
-    "genre": ["Animation", "Adventure", "Drama"],
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Drama"
+    ],
     "rate": 8.5
   },
   {
@@ -105,7 +141,11 @@
     "director": "Joss Whedon",
     "duration": 143,
     "poster": "https://img.fruugo.com/product/7/41/14532417_max.jpg",
-    "genre": ["Action", "Adventure", "Sci-Fi"],
+    "genre": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
     "rate": 8.0
   },
   {
@@ -115,7 +155,10 @@
     "director": "Steven Spielberg",
     "duration": 127,
     "poster": "https://vice-press.com/cdn/shop/products/Jurassic-Park-Editions-poster-florey.jpg?v=1654518755&width=1024",
-    "genre": ["Adventure", "Sci-Fi"],
+    "genre": [
+      "Adventure",
+      "Sci-Fi"
+    ],
     "rate": 8.1
   },
   {
@@ -125,7 +168,10 @@
     "director": "James Cameron",
     "duration": 195,
     "poster": "https://i.pinimg.com/originals/42/42/65/4242658e6f1b0d6322a4a93e0383108b.png",
-    "genre": ["Drama", "Romance"],
+    "genre": [
+      "Drama",
+      "Romance"
+    ],
     "rate": 7.8
   },
   {
@@ -135,7 +181,10 @@
     "director": "David Fincher",
     "duration": 120,
     "poster": "https://i.pinimg.com/originals/7e/37/b9/7e37b994b613e94cba64f307b1983e39.jpg",
-    "genre": ["Biography", "Drama"],
+    "genre": [
+      "Biography",
+      "Drama"
+    ],
     "rate": 7.7
   },
   {
@@ -145,6 +194,11 @@
     "director": "James Cameron",
     "duration": 162,
     "poster": "https://i.etsystatic.com/35681979/r/il/dfe3ba/3957859451/il_fullxfull.3957859451_h27r.jpg",
-    "genre": ["Action", "Adventure", "Fantasy"],
+    "genre": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
     "rate": 7.8
-  }]
+  }
+]

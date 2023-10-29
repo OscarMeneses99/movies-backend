@@ -1,0 +1,149 @@
+paths:
+  /api/movies:
+    get:
+      tags: [Movies]
+      summary: Obtiene una lista de películas.
+      description: Obtiene una lista de películas basada en los parámetros proporcionados, como título o género.
+      parameters:
+        - in: query
+          name: title
+          description: Filtrar películas por título.
+          schema:
+            type: string
+        - in: query
+          name: genre
+          description: Filtrar películas por género.
+          schema:
+            type: string
+      responses:
+        200:
+          description: Lista de películas recuperada con éxito.
+        400:
+          description: Parámetros de consulta inválidos
+    post:
+      tags: [Movies]
+      summary: Crea una nueva película.
+      description: Crea una nueva película con los datos proporcionados en el cuerpo de la solicitud.
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Movie'
+      responses:
+        201:
+          description: Película creada con éxito.
+        422:
+          description: Datos de película no válidos
+  /api/movies/{id}:
+    get:
+      tags: [Movies]
+      summary: Obtiene una película por ID.
+      description: Obtiene una película basada en el ID proporcionado.
+      parameters:
+        - in: path
+          name: id
+          description: ID de la película a buscar.
+          required: true
+          schema:
+            type: string
+      responses:
+        200:
+          description: Película encontrada con éxito.
+        404:
+          description: Película no encontrada.
+    patch:
+      tags: [Movies]
+      summary: Actualiza una película por ID.
+      description: Actualiza una película existente con los datos proporcionados en el cuerpo de la solicitud.
+      parameters:
+        - in: path
+          name: id
+          description: ID de la película a actualizar.
+          required: true
+          schema:
+            type: string
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Movie'
+      responses:
+        200:
+          description: Película actualizada con éxito.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Movie'
+        404:
+          description: Película no encontrada.
+        422:
+          description: Datos de película no válidos.
+    delete:
+      tags: [Movies]
+      summary: Elimina una película por ID.
+      description: Elimina una película basada en el ID proporcionado.
+      parameters:
+        - in: path
+          name: id
+          description: ID de la película a eliminar.
+          required: true
+          schema:
+            type: string
+      responses:
+        200:
+          description: Película eliminada con éxito.
+        404:
+          description: Película no encontrada
+components:
+  schemas:
+    Movie:
+      type: object
+      properties:
+        title:
+          type: string
+          minLength: 1
+          maxLength: 255
+          example: "The Godfather"
+        year:
+          type: integer
+          format: int32
+          minimum: 1888
+          maximum: 2024
+          example: 1975
+        director:
+          type: string
+          minLength: 1
+          maxLength: 255
+          example: "Francis Ford Coppola"
+        duration:
+          type: integer
+          format: int32
+          minimum: 1
+          maximum: 500
+          example: 175
+        genre:
+          type: array
+          items:
+            type: string
+            enum:
+              - Drama
+              - Action
+              - Crime
+              - Adventure
+              - Sci-Fi
+              - Romance
+              - Animation
+              - Biography
+              - Fantasy
+          example:
+            - "Crime"
+            - "Drama"
+        poster:
+          type: string
+          format: uri
+          example: "https://img.fruugo.com/product/4/49/14441494_max.jpg"
+        rate:
+          type: number
+          minimum: 0
+          maximum: 10
+          example: 9.3

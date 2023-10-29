@@ -1,0 +1,325 @@
+[
+    {
+        "title": "The Godfather",
+        "year": 1972,
+        "director": "Francis Ford Coppola",
+        "duration": 175,
+        "poster": "https://img.fruugo.com/product/4/49/14441494_max.jpg",
+        "genre": [
+            "Crime",
+            "Drama"
+        ],
+        "rate": "9.2"
+    },
+    {
+        "title": "The Dark Knight",
+        "year": 2008,
+        "director": "Christopher Nolan",
+        "duration": 152,
+        "poster": "https://i.ebayimg.com/images/g/yokAAOSw8w1YARbm/s-l1200.jpg",
+        "genre": [
+            "Action",
+            "Crime",
+            "Drama",
+            "Thriller"
+        ],
+        "rate": "9.0"
+    },
+    {
+        "title": "The Godfather: Part II",
+        "year": 1974,
+        "director": "Francis Ford Coppola",
+        "duration": 202,
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxK9ROC2pyI3me2mirGzEWzD1hnbq6AXZu7M0YZDmFzkmU6F__",
+        "genre": "Crime, Drama",
+        "rate": "9.0"
+    },
+    {
+        "title": "Pulp Fiction",
+        "year": 1994,
+        "director": "Quentin Tarantino",
+        "duration": 154,
+        "poster": "https://www.example.com/pulp-fiction-poster.jpg",
+        "genre": "Crime, Drama",
+        "rate": "8.9"
+    },
+    {
+        "title": "Schindler's List",
+        "year": 1993,
+        "director": "Steven Spielberg",
+        "duration": 195,
+        "poster": "https://www.example.com/schindlers-list-poster.jpg",
+        "genre": "Biography, Drama, History",
+        "rate": "8.9"
+    },
+    {
+        "title": "The Lord of the Rings: The Return of the King",
+        "year": 2003,
+        "director": "Peter Jackson",
+        "duration": 201,
+        "poster": "https://www.example.com/the-lord-of-the-rings-the-return-of-the-king-poster.jpg",
+        "genre": "Adventure, Drama, Fantasy",
+        "rate": "8.9"
+    },
+    {
+        "title": "Fight Club",
+        "year": 1999,
+        "director": "David Fincher",
+        "duration": 139,
+        "poster": "https://www.example.com/fight-club-poster.jpg",
+        "genre": "Drama",
+        "rate": "8.8"
+    },
+    {
+        "title": "Forrest Gump",
+        "year": 1994,
+        "director": "Robert Zemeckis",
+        "duration": 142,
+        "poster": "https://www.example.com/forrest-gump-poster.jpg",
+        "genre": "Drama, Romance",
+        "rate": "8.8"
+    },
+    {
+        "title": "Inception",
+        "year": 2010,
+        "director": "Christopher Nolan",
+        "duration": 148,
+        "poster": "https://www.example.com/inception-poster.jpg",
+        "genre": "Action, Adventure, Sci-Fi, Thriller",
+        "rate": "8.7"
+    },
+    {
+        "title": "The Matrix",
+        "year": 1999,
+        "director": "Lana Wachowski, Lilly Wachowski",
+        "duration": 136,
+        "poster": "https://www.example.com/the-matrix-poster.jpg",
+        "genre": "Action, Sci-Fi",
+        "rate": "8.7"
+    },
+    {
+        "title": "Goodfellas",
+        "year": 1990,
+        "director": "Martin Scorsese",
+        "duration": 146,
+        "poster": "https://www.example.com/goodfellas-poster.jpg",
+        "genre": "Biography, Crime, Drama",
+        "rate": "8.7"
+    },
+    {
+        "title": "One Flew Over the Cuckoo's Nest",
+        "year": 1975,
+        "director": "Milos Forman",
+        "duration": 133,
+        "poster": "https://www.example.com/one-flew-over-the-cuckoos-nest-poster.jpg",
+        "genre": "Drama",
+        "rate": "8.7"
+    },
+    {
+        "title": "Seven Samurai",
+        "year": 1954,
+        "director": "Akira Kurosawa",
+        "duration": 207,
+        "poster": "https://www.example.com/seven-samurai-poster.jpg",
+        "genre": "Action, Adventure, Drama",
+        "rate": "8.6"
+    },
+    {
+        "title": "Se7en",
+        "year": 1995,
+        "director": "David Fincher",
+        "duration": 127,
+        "poster": "https://www.example.com/se7en-poster.jpg",
+        "genre": "Crime, Drama, Mystery, Thriller",
+        "rate": "8.6"
+    },
+    {
+        "title": "Life Is Beautiful",
+        "year": 1997,
+        "director": "Roberto Benigni",
+        "duration": 116,
+        "poster": "https://www.example.com/life-is-beautiful-poster.jpg",
+        "genre": "Comedy, Drama, Romance, War",
+        "rate": "8.6"
+    },
+    {
+        "title": "The Silence of the Lambs",
+        "year": 1991,
+        "director": "Jonathan Demme",
+        "duration": 118,
+        "poster": "https://www.example.com/the-silence-of-the-lambs-poster.jpg",
+        "genre": "Crime, Drama, Thriller",
+        "rate": "8.6"
+    },
+    {
+        "title": "City of God",
+        "year": 2002,
+        "director": "Fernando Meirelles, Kátia Lund",
+        "duration": 130,
+        "poster": "https://www.example.com/city-of-god-poster.jpg",
+        "genre": "Crime, Drama",
+        "rate": "8.6"
+    },
+    {
+        "title": "Star Wars: Episode V - The Empire Strikes Back",
+        "year": 1980,
+        "director": "Irvin Kershner",
+        "duration": 124,
+        "poster": "https://www.example.com/star-wars-episode-V-the-empire-strikes-back-poster.jpg",
+        "genre": "Action, Adventure, Fantasy, Sci-Fi",
+        "rate": "8.7"
+    },
+    {
+        "title": "Saving Private Ryan",
+        "year": 1998,
+        "director": "Steven Spielberg",
+        "duration": 169,
+        "poster": "https://www.example.com/saving-private-ryan-poster.jpg",
+        "genre": "Drama, War",
+        "rate": "8.5"
+    },
+    {
+        "title": "Spirited Away",
+        "year": 2001,
+        "director": "Hayao Miyazaki",
+        "duration": 125,
+        "poster": "https://www.example.com/spirited-away-poster.jpg",
+        "genre": "Animation, Adventure, Family, Fantasy, Mystery",
+        "rate": "8.5"
+    },
+    {
+        "title": "The Green Mile",
+        "year": 1999,
+        "director": "Frank Darabont",
+        "duration": 189,
+        "poster": "https://www.example.com/the-green-mile-poster.jpg",
+        "genre": "Crime, Drama, Fantasy, Mystery",
+        "rate": "8.5"
+    },
+    {
+        "title": "Interstellar",
+        "year": 2014,
+        "director": "Christopher Nolan",
+        "duration": 169,
+        "poster": "https://www.example.com/interstellar-poster.jpg",
+        "genre": "Adventure, Drama, Sci-Fi",
+        "rate": "8.5"
+    },
+    {
+        "title": "Léon: The Professional",
+        "year": 1994,
+        "director": "Luc Besson",
+        "duration": 110,
+        "poster": "https://www.example.com/leon-the-professional-poster.jpg",
+        "genre": "Action, Crime, Drama, Thriller",
+        "rate": "8.5"
+    },
+    {
+        "title": "The Pianist",
+        "year": 2002,
+        "director": "Roman Polanski",
+        "duration": 150,
+        "poster": "https://www.example.com/the-pianist-poster.jpg",
+        "genre": "Biography, Drama, Music, War",
+        "rate": "8.5"
+    },
+    {
+        "title": "The Usual Suspects",
+        "year": 1995,
+        "director": "Bryan Singer",
+        "duration": 106,
+        "poster": "https://www.example.com/the-usual-suspects-poster.jpg",
+        "genre": "Crime, Drama, Mystery, Thriller",
+        "rate": "8.5"
+    },
+    {
+        "title": "American History X",
+        "year": 1998,
+        "director": "Tony Kaye",
+        "duration": 119,
+        "poster": "https://www.example.com/american-history-x-poster.jpg",
+        "genre": "Crime, Drama",
+        "rate": "8.5"
+    },
+    {
+        "title": "Back to the Future",
+        "year": 1985,
+        "director": "Robert Zemeckis",
+        "duration": 116,
+        "poster": "https://www.example.com/back-to-the-future-poster.jpg",
+        "genre": "Adventure, Comedy, Sci-Fi",
+        "rate": "8.5"
+    },
+    {
+        "title": "Modern Times",
+        "year": 1936,
+        "director": "Charles Chaplin",
+        "duration": 87,
+        "poster": "https://www.example.com/modern-times-poster.jpg",
+        "genre": "Comedy, Drama, Family, Romance",
+        "rate": "8.5"
+    },
+    {
+        "title": "Psycho",
+        "year": 1960,
+        "director": "Alfred Hitchcock",
+        "duration": 109,
+        "poster": "https://www.example.com/psycho-poster.jpg",
+        "genre": "Horror, Mystery, Thriller",
+        "rate": "8.5"
+    },
+    {
+        "title": "Gladiator",
+        "year": 2000,
+        "director": "Ridley Scott",
+        "duration": 155,
+        "poster": "https://www.example.com/gladiator-poster.jpg",
+        "genre": "Action, Adventure, Drama",
+        "rate": "8.5"
+    },
+    {
+        "title": "City Lights",
+        "year": 1931,
+        "director": "Charles Chaplin",
+        "duration": 87,
+        "poster": "https://www.example.com/city-lights-poster.jpg",
+        "genre": "Comedy, Drama, Romance",
+        "rate": "8.5"
+    },
+    {
+        "title": "The Departed",
+        "year": 2006,
+        "director": "Martin Scorsese",
+        "duration": 151,
+        "poster": "https://www.example.com/the-departed-poster.jpg",
+        "genre": "Crime, Drama, Thriller",
+        "rate": "8.5"
+    },
+    {
+        "title": "Whiplash",
+        "year": 2014,
+        "director": "Damien Chazelle",
+        "duration": 106,
+        "poster": "https://www.example.com/whiplash-poster.jpg",
+        "genre": "Drama, Music",
+        "rate": "8.5"
+    },
+    {
+        "title": "The Prestige",
+        "year": 2006,
+        "director": "Christopher Nolan",
+        "duration": 130,
+        "poster": "https://www.example.com/the-prestige-poster.jpg",
+        "genre": "Drama, Mystery, Sci-Fi, Thriller",
+        "rate": "8.5"
+    },
+    {
+        "title": "Casablanca",
+        "year": 1942,
+        "director": "Michael Curtiz",
+        "duration": 102,
+        "poster": "https://www.example.com/casablanca-poster.jpg",
+        "genre": "Drama, Romance, War",
+        "rate": "8.5"
+    }
+]

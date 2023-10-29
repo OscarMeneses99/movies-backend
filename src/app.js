@@ -2,6 +2,8 @@
 import express from 'express'
 import cors from 'cors'
 import morgan from 'morgan'
+import swaggerUi from 'swagger-ui-express'
+import swaggerSpec from './docs/swagger.js'
 import movies from './routes/movies.routes.js'
 
 const app = express()
@@ -16,5 +18,7 @@ app.use(express.json())
 
 // Routes
 app.use('/api', movies)
+//Docs
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec))
 
 export default app
