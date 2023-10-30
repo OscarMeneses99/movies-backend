@@ -15,7 +15,7 @@ app.use(cors())
 app.use(express.json())
 
 // Routes
-app.use('/api', movies)
+app.use('/api/movies', movies)
 //Docs
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec))
 

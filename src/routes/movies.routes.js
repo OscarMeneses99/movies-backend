@@ -1,13 +1,13 @@
 import { Router } from "express"
-import { getMovies, getMovie, createMovie, updateMovie, deleteMovie } from "../controllers/movies.controller.js"
+import { MovieController } from "../controllers/movies.controller.js"
 
 const router = Router()
 
 //endpoints
-router.get('/movies', getMovies)
-router.get('/movies/:id', getMovie)
-router.post('/movies', createMovie)
-router.patch('/movies/:id', updateMovie)
-router.delete('/movies/:id', deleteMovie)
+router.get('/', MovieController.getMovies)
+router.get('/:id', MovieController.getMovie)
+router.post('/', MovieController.createMovie)
+router.patch('/:id', MovieController.updateMovie)
+router.delete('/:id', MovieController.deleteMovie)
 
 export default router
