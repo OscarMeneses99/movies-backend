@@ -147,3 +147,8 @@ components:
           minimum: 0
           maximum: 10
           example: 9.3
+        synopsis:
+          type: string
+          minLength: 1
+          maxLength: 1000
+          example: "'The Godfather' is a 1972 crime drama film that revolves around the Corleone Mafia family, led by Vito Corleone. It explores themes of power, family, and loyalty as his son Michael gets involved in the family's criminal activities after an assassination attempt on Vito. The movie is renowned for its storytelling, complex characters, and iconic performances."

@@ -30,8 +30,9 @@ Content-Type: application/json
 ###Actualizar una pelicula
 PATCH http://localhost:3000/api/movies/dcdd0fad-a94c-4810-8acc-5f108d3b18c3
 
+
 {
-    "year": 1975
+    "year": 2000,
 }
 
 ###Borrar una pelicula

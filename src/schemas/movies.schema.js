@@ -17,7 +17,8 @@ const movieSchema = z.object({
             'Fantasy'])
     ),
     poster: z.string().url(),
-    rate: z.number().min(0).max(10)
+    rate: z.number().min(0).max(10),
+    synopsis: z.string(),
 })
 
 export function validateSchema(object) {

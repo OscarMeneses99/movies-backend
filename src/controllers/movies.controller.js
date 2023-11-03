@@ -1,6 +1,6 @@
 
 import { validateSchema, validatePartialSchema } from "../schemas/movies.schema.js"
-import { MovieModel } from "../models/movie.model.js"
+import { MovieModel } from "../models/local/movie.model.js"
 
 export class MovieController {
     static async getMovies(req, res) {

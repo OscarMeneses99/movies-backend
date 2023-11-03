@@ -1,11 +1,5 @@
 import swaggerJSDoc from 'swagger-jsdoc'
 
-import app from '../app.js'
-
-const apis = [
-    './src/docs/*.yaml',
-]
-
 const options = {
     definition: {
         openapi: '3.0.0',
@@ -16,19 +10,18 @@ const options = {
         },
         servers: [
             {
-                url: 'https://movies-backend.3.us-1.fl0.io/',
+                url: 'http://localhost:3000',
+                description: 'Servidor local',  
             },
+            {
+                url: 'https://movies-backend.3.us-1.fl0.io/',
+                description: 'Servidor remoto',
+            }
         ],
     },
-    apis: apis,
+    apis: ['./src/docs/swagger-doc.yaml'],
 };
 
 const swaggerSpec = swaggerJSDoc(options)
 
 export default swaggerSpec
-
-
-
-
-
-

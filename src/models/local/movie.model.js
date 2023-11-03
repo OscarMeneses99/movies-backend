@@ -1,5 +1,5 @@
 import crypto from 'crypto'
-import { readJSON } from "../utils/readFile.js"
+import { readJSON } from "../../utils/readFile.js"
 const movies = readJSON('../movies.json')
 
 export class MovieModel {
