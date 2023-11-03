@@ -1,5 +1,7 @@
 import app from './app.js'
+import { ConnectDB } from './models/mongodb/conexiondb.js'
 
+ConnectDB()
 const PORT = process.env.PORT ?? 3000
 
 app.listen(PORT)

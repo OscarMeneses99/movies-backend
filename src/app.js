@@ -4,8 +4,12 @@ import cors from 'cors'
 import swaggerUi from 'swagger-ui-express'
 import swaggerSpec from './docs/swagger.js'
 import movies from './routes/movies.routes.js'
+import dotenv from 'dotenv'
 
 const app = express()
+
+// Variable environment
+dotenv.config()
 
 //disable x-powered-by: express
 app.disable('x-powered-by')
