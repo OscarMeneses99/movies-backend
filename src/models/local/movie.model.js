@@ -15,12 +15,12 @@ export class MovieModel {
     }
 
     static async getById({ id }) {
-        return movies.find(movie => movie.id === id)
+        return movies.find(movie => movie._id === id)
     }
 
     static async create({ result: movie }) {
         const newMovie = {
-            id: crypto.randomUUID(),
+            _id: crypto.randomUUID(),
             ...movie.data
         }
         movies.push(newMovie)
@@ -28,7 +28,7 @@ export class MovieModel {
     }
 
     static async update({ id, result }) {
-        const movieIndex = movies.findIndex(movie => movie.id === id)
+        const movieIndex = movies.findIndex(movie => movie._id === id)
         if (movieIndex === -1) return false
 
         movies[movieIndex] = {
@@ -40,7 +40,7 @@ export class MovieModel {
     }
 
     static async delete({ id }) {
-        const movieIndex = movies.findIndex(movie => movie.id === id)
+        const movieIndex = movies.findIndex(movie => movie._id === id)
         if (movieIndex === -1) return false
 
         movies.splice(movieIndex, 1)
