@@ -28,7 +28,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/Movie'
+              $ref: "#/components/schemas/Movie"
       responses:
         201:
           description: Película creada con éxito.
@@ -66,14 +66,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/Movie'
+              $ref: "#/components/schemas/Movie"
       responses:
         200:
           description: Película actualizada con éxito.
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Movie'
+                $ref: "#/components/schemas/Movie"
         404:
           description: Película no encontrada.
         422:
@@ -94,6 +94,101 @@ paths:
           description: Película eliminada con éxito.
         404:
           description: Película no encontrada
+  /api/users:
+    get:
+      tags: [Users]
+      summary: Obtiene una lista de usuarios.
+      description: Obtiene una lista de usuarios basada en los parámetros proporcionados el nombre de usuario.
+      parameters:
+        - in: query
+          name: username
+          description: Filtrar usuarios por nombre de usuario.
+          schema:
+            type: string
+      responses:
+        200:
+          description: Lista de usuarios recuperada con éxito.
+        400:
+          description: Parámetros de consulta inválidos
+    post:
+      tags: [Users]
+      summary: Crea un nuevo usuario.
+      description: Crea un nuevo usuario con los datos proporcionados en el cuerpo de la solicitud.
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/Users"
+      responses:
+        201:
+          description: Usuario creado con éxito.
+        422:
+          description: Datos de usuario no válidos
+  /api/users/{id}:
+    get:
+      tags: [Users]
+      summary: Obtiene un usuario por ID.
+      description: Obtiene un usuario basado en el ID proporcionado.
+      parameters:
+        - in: path
+          name: id
+          description: ID del usuario a buscar.
+          required: true
+          schema:
+            type: string
+      responses:
+        200:
+          description: Usuario encontrado con éxito.
+        404:
+          description: Usuario no encontrado.
+    patch:
+      tags: [Users]
+      summary: Actualiza un usuario por ID.
+      description: Actualiza un usuario existente con los datos proporcionados en el cuerpo de la solicitud.
+      parameters:
+        - in: path
+          name: id
+          description: ID del usuario a actualizar.
+          required: true
+          schema:
+            type: string
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/Users"
+      responses:
+        200:
+          description: Usuario actualizado con éxito.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Users"
+        404:
+          description: Usuario no encontrado.
+        422:
+          description: Datos de usuario no válidos.
+    delete:
+      tags: [Users]
+      summary: Elimina un usuario por ID.
+      description: Elimina un usuario basado en el ID proporcionado.
+      parameters:
+        - in: path
+          name: id
+          description: ID del usuario a eliminar.
+          required: true
+          schema:
+            type: string
+      responses:
+        204:
+          description: Usuario eliminado con éxito.
+          responses:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Users"
+              message: Usuario eliminado con éxito.
+        404:
+          description: Usuario no encontrado
 components:
   schemas:
     Movie:
@@ -152,3 +247,26 @@ components:
           minLength: 1
           maxLength: 1000
           example: "'The Godfather' is a 1972 crime drama film that revolves around the Corleone Mafia family, led by Vito Corleone. It explores themes of power, family, and loyalty as his son Michael gets involved in the family's criminal activities after an assassination attempt on Vito. The movie is renowned for its storytelling, complex characters, and iconic performances."
+    Users:
+      type: object
+      properties:
+        name:
+          type: string
+          minLength: 1
+          maxLength: 50
+          example: "Oscar Meneses"
+        username:
+          type: string
+          minLength: 1
+          maxLength: 20
+          example: "OscarMeneses99"
+        password:
+          type: string
+          minLength: 1
+          maxLength: 20
+          example: "123456"
+        email:
+          type: string
+          minLength: 1
+          maxLength: 100
+          example: "meneses.solis.oscar99@gmail.com"

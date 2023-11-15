@@ -1,13 +1,63 @@
 [
   {
-    "title": "The Shawshank Redemption",
+    "title": "The Marvels",
+    "year": 2023,
+    "director": "Nia DaCosta",
+    "duration": 105,
+    "poster": "https://cdn.marvel.com/content/1x/marvels_imax_digital_supplemental_v3_lg.jpg",
+    "genre": ["Action", "Adventure", "Sci-Fi"],
+    "synopsis": "Captain Marvel has regained her identity and taken revenge on the Supreme Intelligence. When her duties send her into a wormhole, her powers tangle with those of two other superheroes to form the Marvels.",
+    "rate": 8.8
+  },
+  {
+    "title": "Pulp Fiction",
     "year": 1994,
-    "director": "Frank Darabont",
+    "director": "Quentin Tarantino",
+    "duration": 154,
+    "poster": "https://www.themoviedb.org/t/p/original/vQWk5YBFWF4bZaofAbv0tShwBvQ.jpg",
+    "genre": ["Crime", "Drama"],
+    "rate": 8.9,
+    "synopsis": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption."
+  },
+  {
+    "title": "Guardians of the Galaxy Vol. 3",
+    "year": 2023,
+    "director": "James Gunn",
+    "duration": 122,
+    "poster": "https://www.themoviedb.org/t/p/original/r2J02Z2OpNTctfOSN1Ydgii51I3.jpg",
+    "genre": ["Action", "Adventure", "Comedy"],
+    "synopsis": "The Guardians of the Galaxy embark on their next adventure to uncover the truth about Peter Quill's heritage.",
+    "rate": 9.2
+  },
+  {
+    "title": "Forrest Gump",
+    "year": 1994,
+    "director": "Robert Zemeckis",
     "duration": 142,
-    "poster": "https://i.ebayimg.com/images/g/4goAAOSwMyBe7hnQ/s-l1200.webp",
-    "genre": ["Drama"],
-    "rate": 9.3,
-    "synopsis": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency."
+    "poster": "https://i.ebayimg.com/images/g/qR8AAOSwkvRZzuMD/s-l1600.jpg",
+    "genre": ["Drama", "Romance"],
+    "rate": 8.8,
+    "synopsis": "The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate, and other historical events unfold through the perspective of an Alabama man with an IQ of 75."
+  },
+  {
+    "title": "Interstellar",
+    "year": 2014,
+    "director": "Christopher Nolan",
+    "duration": 169,
+    "poster": "https://m.media-amazon.com/images/I/91obuWzA3XL._AC_UF1000,1000_QL80_.jpg",
+    "genre": ["Adventure", "Drama", "Sci-Fi"],
+    "rate": 8.6,
+    "synopsis": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival."
+  },
+  {
+    "title": "Captain Marvel",
+    "year": 2019,
+    "director": "Anna Boden, Ryan Fleck",
+    "duration": 123,
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTE0YWFmOTMtYTU2ZS00ZTIxLWE3OTEtYTNiYzBkZjViZThiXkEyXkFqcGdeQXVyODMzMzQ4OTI@._V1_.jpg",
+    "genre": ["Action", "Adventure", "Sci-Fi"],
+    "synopsis": "Carol Danvers becomes one of the universe's most powerful heroes when Earth is caught in the middle of a galactic war between two alien races.",
+    "rate": 8.6
   },
   {
     "title": "The Dark Knight",
@@ -30,124 +80,14 @@
     "synopsis": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O."
   },
   {
-    "title": "Pulp Fiction",
-    "year": 1994,
-    "director": "Quentin Tarantino",
-    "duration": 154,
-    "poster": "https://www.themoviedb.org/t/p/original/vQWk5YBFWF4bZaofAbv0tShwBvQ.jpg",
-    "genre": ["Crime", "Drama"],
-    "rate": 8.9,
-    "synopsis": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption."
-  },
-  {
-    "title": "Forrest Gump",
-    "year": 1994,
-    "director": "Robert Zemeckis",
-    "duration": 142,
-    "poster": "https://i.ebayimg.com/images/g/qR8AAOSwkvRZzuMD/s-l1600.jpg",
-    "genre": ["Drama", "Romance"],
-    "rate": 8.8,
-    "synopsis": "The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate, and other historical events unfold through the perspective of an Alabama man with an IQ of 75."
-  },
-  {
-    "title": "Gladiator",
-    "year": 2000,
-    "director": "Ridley Scott",
-    "duration": 155,
-    "poster": "https://img.fruugo.com/product/0/60/14417600_max.jpg",
-    "genre": ["Action", "Adventure", "Drama"],
-    "rate": 8.5,
-    "synopsis": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery."
-  },
-  {
-    "title": "The Matrix",
-    "year": 1999,
-    "director": "Lana Wachowski",
-    "duration": 136,
-    "poster": "https://i.ebayimg.com/images/g/QFQAAOSwAQpfjaA6/s-l1200.jpg",
-    "genre": ["Action", "Sci-Fi"],
-    "rate": 8.7,
-    "synopsis": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers."
-  },
-  {
-    "title": "Interstellar",
-    "year": 2014,
-    "director": "Christopher Nolan",
-    "duration": 169,
-    "poster": "https://m.media-amazon.com/images/I/91obuWzA3XL._AC_UF1000,1000_QL80_.jpg",
-    "genre": ["Adventure", "Drama", "Sci-Fi"],
-    "rate": 8.6,
-    "synopsis": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival."
-  },
-  {
-    "title": "The Lord of the Rings: The Return of the King",
-    "year": 2003,
-    "director": "Peter Jackson",
-    "duration": 201,
-    "poster": "https://i.ebayimg.com/images/g/0hoAAOSwe7peaMLW/s-l1600.jpg",
-    "genre": ["Action", "Adventure", "Drama"],
-    "rate": 8.9,
-    "synopsis": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring."
-  },
-  {
-    "title": "The Lion King",
-    "year": 1994,
-    "director": "Roger Allers, Rob Minkoff",
-    "duration": 88,
-    "poster": "https://m.media-amazon.com/images/I/81BMmrwSFOL._AC_UF1000,1000_QL80_.jpg",
-    "genre": ["Animation", "Adventure", "Drama"],
-    "rate": 8.5,
-    "synopsis": "Lion cub and future king Simba searches for his identity. His eagerness to please others and penchant for testing his boundaries sometimes gets him into trouble."
-  },
-  {
-    "title": "The Avengers",
-    "year": 2012,
-    "director": "Joss Whedon",
-    "duration": 143,
-    "poster": "https://img.fruugo.com/product/7/41/14532417_max.jpg",
+    "title": "The Incredible Hulk",
+    "year": 2008,
+    "director": "Louis Leterrier",
+    "duration": 112,
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTUyNzk3MjA1OF5BMl5BanBnXkFtZTcwMTE1Njg2MQ@@._V1_.jpg",
     "genre": ["Action", "Adventure", "Sci-Fi"],
-    "rate": 8.0,
-    "synopsis": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity."
-  },
-  {
-    "title": "Jurassic Park",
-    "year": 1993,
-    "director": "Steven Spielberg",
-    "duration": 127,
-    "poster": "https://vice-press.com/cdn/shop/products/Jurassic-Park-Editions-poster-florey.jpg?v=1654518755&width=1024",
-    "genre": ["Adventure", "Sci-Fi"],
-    "rate": 8.1,
-    "synopsis": "During a preview tour, a theme park suffers a major power breakdown that allows its cloned dinosaur exhibits to run amok."
-  },
-  {
-    "title": "Titanic",
-    "year": 1997,
-    "director": "James Cameron",
-    "duration": 195,
-    "poster": "https://i.pinimg.com/originals/42/42/65/4242658e6f1b0d6322a4a93e0383108b.png",
-    "genre": ["Drama", "Romance"],
-    "rate": 7.8,
-    "synopsis": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic."
-  },
-  {
-    "title": "The Social Network",
-    "year": 2010,
-    "director": "David Fincher",
-    "duration": 120,
-    "poster": "https://i.pinimg.com/originals/7e/37/b9/7e37b994b613e94cba64f307b1983e39.jpg",
-    "genre": ["Biography", "Drama"],
-    "rate": 7.7,
-    "synopsis": "As Harvard student Mark Zuckerberg creates the social networking site that would become known as Facebook, he is sued by the twins who claimed he stole their idea, and by the co-founder who was later squeezed out of the business."
-  },
-  {
-    "title": "Avatar",
-    "year": 2009,
-    "director": "James Cameron",
-    "duration": 162,
-    "poster": "https://i.etsystatic.com/35681979/r/il/dfe3ba/3957859451/il_fullxfull.3957859451_h27r.jpg",
-    "genre": ["Action", "Adventure", "Fantasy"],
-    "rate": 7.8,
-    "synopsis": "A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home."
+    "synopsis": "Bruce Banner, a scientist on the run from the U.S. Government, must find a cure for the monster he turns into whenever he loses his temper.",
+    "rate": 7.2
   },
   {
     "title": "Iron Man",
@@ -160,16 +100,6 @@
     "rate": 8.5
   },
   {
-    "title": "The Incredible Hulk",
-    "year": 2008,
-    "director": "Louis Leterrier",
-    "duration": 112,
-    "poster": "https://m.media-amazon.com/images/M/MV5BMTUyNzk3MjA1OF5BMl5BanBnXkFtZTcwMTE1Njg2MQ@@._V1_.jpg",
-    "genre": ["Action", "Adventure", "Sci-Fi"],
-    "synopsis": "Bruce Banner, a scientist on the run from the U.S. Government, must find a cure for the monster he turns into whenever he loses his temper.",
-    "rate": 7.2
-  },
-  {
     "title": "Iron Man 2",
     "year": 2010,
     "director": "Jon Favreau",
@@ -180,16 +110,6 @@
     "rate": 7.8
   },
   {
-    "title": "Thor",
-    "year": 2011,
-    "director": "Kenneth Branagh",
-    "duration": 115,
-    "poster": "https://i.pinimg.com/originals/02/e4/f4/02e4f4cbb8a7cdcdd0d11f8e7b84bfd6.jpg",
-    "genre": ["Action", "Adventure", "Fantasy"],
-    "synopsis": "The powerful but arrogant god Thor is cast out of Asgard to live amongst humans in Midgard (Earth), where he soon becomes one of their finest defenders.",
-    "rate": 8.0
-  },
-  {
     "title": "Iron Man 3",
     "year": 2013,
     "director": "Shane Black",
@@ -198,6 +118,16 @@
     "genre": ["Action", "Adventure", "Sci-Fi"],
     "synopsis": "When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution.",
     "rate": 7.5
+  },
+  {
+    "title": "Thor",
+    "year": 2011,
+    "director": "Kenneth Branagh",
+    "duration": 115,
+    "poster": "https://i.pinimg.com/originals/02/e4/f4/02e4f4cbb8a7cdcdd0d11f8e7b84bfd6.jpg",
+    "genre": ["Action", "Adventure", "Fantasy"],
+    "synopsis": "The powerful but arrogant god Thor is cast out of Asgard to live amongst humans in Midgard (Earth), where he soon becomes one of their finest defenders.",
+    "rate": 8.0
   },
   {
     "title": "Captain America: The First Avenger",
@@ -258,16 +188,6 @@
     "genre": ["Action", "Adventure", "Sci-Fi"],
     "synopsis": "Political involvement in the Avengers' affairs causes a rift between Captain America and Iron Man.",
     "rate": 8.4
-  },
-  {
-    "title": "Captain Marvel",
-    "year": 2019,
-    "director": "Anna Boden, Ryan Fleck",
-    "duration": 123,
-    "poster": "https://m.media-amazon.com/images/M/MV5BMTE0YWFmOTMtYTU2ZS00ZTIxLWE3OTEtYTNiYzBkZjViZThiXkEyXkFqcGdeQXVyODMzMzQ4OTI@._V1_.jpg",
-    "genre": ["Action", "Adventure", "Sci-Fi"],
-    "synopsis": "Carol Danvers becomes one of the universe's most powerful heroes when Earth is caught in the middle of a galactic war between two alien races.",
-    "rate": 8.6
   },
   {
     "title": "Spider-Man: Far From Home",
@@ -420,23 +340,103 @@
     "rate": 8.0
   },
   {
-    "title": "Guardians of the Galaxy Vol. 3",
-    "year": 2023,
-    "director": "James Gunn",
-    "duration": 122,
-    "poster": "https://www.themoviedb.org/t/p/original/r2J02Z2OpNTctfOSN1Ydgii51I3.jpg",
-    "genre": ["Action", "Adventure", "Comedy"],
-    "synopsis": "The Guardians of the Galaxy embark on their next adventure to uncover the truth about Peter Quill's heritage.",
-    "rate": 9.2
+    "title": "Gladiator",
+    "year": 2000,
+    "director": "Ridley Scott",
+    "duration": 155,
+    "poster": "https://img.fruugo.com/product/0/60/14417600_max.jpg",
+    "genre": ["Action", "Adventure", "Drama"],
+    "rate": 8.5,
+    "synopsis": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery."
   },
   {
-    "title": "The Marvels",
-    "year": 2023,
-    "director": "Nia DaCosta",
-    "duration": 105,
-    "poster": "https://cdn.marvel.com/content/1x/marvels_imax_digital_supplemental_v3_lg.jpg",
+    "title": "The Matrix",
+    "year": 1999,
+    "director": "Lana Wachowski",
+    "duration": 136,
+    "poster": "https://i.ebayimg.com/images/g/QFQAAOSwAQpfjaA6/s-l1200.jpg",
+    "genre": ["Action", "Sci-Fi"],
+    "rate": 8.7,
+    "synopsis": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers."
+  },
+  {
+    "title": "The Lord of the Rings: The Return of the King",
+    "year": 2003,
+    "director": "Peter Jackson",
+    "duration": 201,
+    "poster": "https://i.ebayimg.com/images/g/0hoAAOSwe7peaMLW/s-l1600.jpg",
+    "genre": ["Action", "Adventure", "Drama"],
+    "rate": 8.9,
+    "synopsis": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring."
+  },
+  {
+    "title": "The Lion King",
+    "year": 1994,
+    "director": "Roger Allers, Rob Minkoff",
+    "duration": 88,
+    "poster": "https://m.media-amazon.com/images/I/81BMmrwSFOL._AC_UF1000,1000_QL80_.jpg",
+    "genre": ["Animation", "Adventure", "Drama"],
+    "rate": 8.5,
+    "synopsis": "Lion cub and future king Simba searches for his identity. His eagerness to please others and penchant for testing his boundaries sometimes gets him into trouble."
+  },
+  {
+    "title": "The Avengers",
+    "year": 2012,
+    "director": "Joss Whedon",
+    "duration": 143,
+    "poster": "https://img.fruugo.com/product/7/41/14532417_max.jpg",
     "genre": ["Action", "Adventure", "Sci-Fi"],
-    "synopsis": "Captain Marvel has regained her identity and taken revenge on the Supreme Intelligence. When her duties send her into a wormhole, her powers tangle with those of two other superheroes to form the Marvels.",
-    "rate": 8.8
+    "rate": 8.0,
+    "synopsis": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity."
+  },
+  {
+    "title": "Jurassic Park",
+    "year": 1993,
+    "director": "Steven Spielberg",
+    "duration": 127,
+    "poster": "https://vice-press.com/cdn/shop/products/Jurassic-Park-Editions-poster-florey.jpg?v=1654518755&width=1024",
+    "genre": ["Adventure", "Sci-Fi"],
+    "rate": 8.1,
+    "synopsis": "During a preview tour, a theme park suffers a major power breakdown that allows its cloned dinosaur exhibits to run amok."
+  },
+  {
+    "title": "Titanic",
+    "year": 1997,
+    "director": "James Cameron",
+    "duration": 195,
+    "poster": "https://i.pinimg.com/originals/42/42/65/4242658e6f1b0d6322a4a93e0383108b.png",
+    "genre": ["Drama", "Romance"],
+    "rate": 7.8,
+    "synopsis": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic."
+  },
+  {
+    "title": "The Social Network",
+    "year": 2010,
+    "director": "David Fincher",
+    "duration": 120,
+    "poster": "https://i.pinimg.com/originals/7e/37/b9/7e37b994b613e94cba64f307b1983e39.jpg",
+    "genre": ["Biography", "Drama"],
+    "rate": 7.7,
+    "synopsis": "As Harvard student Mark Zuckerberg creates the social networking site that would become known as Facebook, he is sued by the twins who claimed he stole their idea, and by the co-founder who was later squeezed out of the business."
+  },
+  {
+    "title": "Avatar",
+    "year": 2009,
+    "director": "James Cameron",
+    "duration": 162,
+    "poster": "https://i.etsystatic.com/35681979/r/il/dfe3ba/3957859451/il_fullxfull.3957859451_h27r.jpg",
+    "genre": ["Action", "Adventure", "Fantasy"],
+    "rate": 7.8,
+    "synopsis": "A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home."
+  },
+  {
+    "title": "The Shawshank Redemption",
+    "year": 1994,
+    "director": "Frank Darabont",
+    "duration": 142,
+    "poster": "https://i.ebayimg.com/images/g/4goAAOSwMyBe7hnQ/s-l1200.webp",
+    "genre": ["Drama"],
+    "rate": 9.3,
+    "synopsis": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency."
   }
 ]
